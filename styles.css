@@ -2,6 +2,20 @@ body {
   background-color: #25a9fc;
 }
 
+.info {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.info a {
+  color: #dc143c;
+}
+
+.info a:hover,
+.info a:focus {
+  color: #dc143c80;
+}
+
 .box {
   position: relative;
   margin: auto;

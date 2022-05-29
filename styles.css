@@ -1,0 +1,122 @@
+body {
+  background-color: #25a9fc;
+}
+
+.box {
+  position: relative;
+  margin: auto;
+  display: block;
+  margin-block-start: 8%;
+  width: 600px;
+  height: 420px;
+  background: none;
+  /* border: 10px solid crimson; */
+}
+
+.head {
+  position: absolute;
+  top: 16.5%;
+  left: 25%;
+  width: 50%;
+  height: 67%;
+  background-color: #a6becf;
+  border-radius: 50%;
+}
+
+.head-copy {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #a6becf;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+[class*='ear-'] {
+  position: absolute;
+  width: 60%;
+  height: 65%;
+  top: 5%;
+  background-color: #a6becf;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.ear-left {
+  left: -20%;
+}
+
+.ear-right {
+  right: -20%;
+}
+
+.inner-ear {
+  position: absolute;
+  border-radius: 50%;
+  width: 80%;
+  height: 80%;
+  top: 10%;
+  left: 10%;
+  background-color: #819caf;
+}
+
+[class*='eye'] {
+  position: absolute;
+  background-color: white;
+  width: 30%;
+  height: 33%;
+  top: 25%;
+  border-radius: 50%;
+  z-index: 3;
+}
+
+.eye-left {
+  left: 21%;
+}
+
+.eye-right {
+  right: 21%;
+}
+
+.pupil {
+  position: absolute;
+  width: 28%;
+  height: 30%;
+  top: 35%;
+  left: 36%;
+  border-radius: 50%;
+  background-color: #27354a;
+}
+
+.nose {
+  position: absolute;
+  background-color: #be845f;
+  width: 25%;
+  height: 42.5%;
+  left: 37%;
+  top: 45%;
+  border-radius: 50px;
+  z-index: 4;
+}
+
+[class*='hair'] {
+  position: absolute;
+  width: 20%;
+  height: 20%;
+  background-color: #a6becf;
+}
+
+.hair-left {
+  top: -8%;
+
+  left: 30%;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.hair-right {
+  top: -4%;
+  left: 48%;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
